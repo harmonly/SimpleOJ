@@ -1,0 +1,20 @@
+desc: |-
+  某天, Takahashi在 A 点 B 分钟起床, 而Aoki在 C 点 D + 1 分钟起床.
+  如果 Takahashi 比 Aoki 起得早, 打印 Takahashi; 否则, 打印 Aoki.
+difficulty: 1
+explain: |-
+  输入: 第一行 n (1 <= n <= 100), 表示包括 n 行测试用例
+  以下每一行包括: A B C D
+  限制: (0 <= A, B <= 23), (0 <= C, D <= 59), 每个数字都是正整数.
+  注意: 起床时间不会超过 (24 : 00)
+id: 1002
+input: |-
+  3
+  7 0 6 30
+  7 30 7 30
+  0 0 23 59
+name: 早上好
+output: |-
+  Aoki
+  Takahashi
+  Takahashi
