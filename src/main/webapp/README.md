@@ -1,6 +1,4 @@
-# soj
-
-> y
+# SimpleOJ
 
 ## Build Setup
 
